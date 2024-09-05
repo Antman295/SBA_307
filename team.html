@@ -9,14 +9,40 @@
         .container {
             display: flex;
             object-fit: fit;
+            margin-bottom: 20px;
         }
         .offPlayers {
             border: 1px solid black;
         }
+
+        .defPlayers {
+            border: 1px solid black
+        }
+
+        table {
+            justify-content: center;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: white;
+            margin: auto;
+        }
+
+        tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #0085CA;
+        }
+
+        .offTitle {
+            margin-top: 40px;
+        }
     </style>
 </head>
-<body>
-    <body>
+<body style="background-color: silver;">
         <header>
             <nav>
                 <ul>
@@ -24,30 +50,106 @@
                     <li><a class="active" href="team.html">Team</a></li>
                     <li><a href="feedback.html">Feedback</a></li>
                 </ul>
-                <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">HOME PAGE</h1>
+                <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">THE TEAM</h1>
             </nav>
             <!-- https://www.tutorialrepublic.com/codelab.php?topic=html5&file=header-tag -->
         </header>
         <section>
+            <h2 class = "offTitle">Offensive Starters</h2>
             <div class="container">
                 <div class="offPlayers"><img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_6_desktop/f_auto/panthers/sda0iqxxiky1f7apq351.jpg" alt="Bryce Young" width="100%" height="100%"></div>
                 <div class="offPlayers"><img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_6_desktop/f_auto/panthers/xs2a1bhrqmccmoj8cpan.jpg" alt="Chuba Hubbard" width="100%" height="100%"></div>
-                <div class="offPlayers"><img src="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_6_desktop/f_auto/panthers/pi0jrgskoeg8drowud3x.jpg" alt="Bryce Young" width="100%" height="100%"></div>
-                <div class="offPlayers"><img src="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_6_desktop/f_auto/panthers/epzzd7szxct1bebatwin.jpg" alt="Bryce Young" width="100%" height="100%"></div>
-                <div class="offPlayers"><img src="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_6_desktop/f_auto/panthers/epzzd7szxct1bebatwin.jpg" alt="Bryce Young" width="100%" height="100%"></div>
+                <div class="offPlayers"><img src="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_6_desktop/f_auto/panthers/pi0jrgskoeg8drowud3x.jpg" alt="Dionte Johnson" width="100%" height="100%"></div>
+                <div class="offPlayers"><img src="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_6_desktop/f_auto/panthers/epzzd7szxct1bebatwin.jpg" alt="Jordon Matthews" width="100%" height="100%"></div>
                 <div class="offPlayers"><img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_6_desktop/f_auto/panthers/ems6qlkmbzfhfnfaxpjw.jpg" alt="Bryce Young" width="100%" height="100%"></div>
+            </div>
+            
+            <table>
+                <tr>
+                    <td><strong>QB</strong></td>
+                    <td>Bryce Young</td>
+                    <td>Andy Dalton</td>
+                </tr>
+                <tr>
+                    <td><strong>RB</strong></td>
+                    <td>Chuba Hubbard</td>
+                    <td>Miles Sanders<td>
+                </tr>
+                <tr>
+                    <td><strong>WR</strong></td>
+                    <td>Dionatae Johnson</td>
+                    <td>Adam Thielen</td>
+                    <td>Xavier Legette</td>
+                </tr>
+                <tr>
+                    <td><strong>TE</strong></td>
+                    <td>Tommy Tremble</td>
+                    <td>Ian Thomas</td>
+                </tr>
+                <tr>
+                    <td><strong>LT</strong></td>
+                    <td>Ikem Ekwonu</td>
+                    <td>Yosh Nijman</td>
+                </tr>
+                <tr><td><strong>LG</strong></td>
+                    <td>Damien Lewis</td>
+                    <td>Chandler Zavala</td>
+                <tr>
+                <tr><td><strong>C</strong></td>
+                    <td>Austin Corbett</td>
+                    <td>Brady Christensen</td>
+                <tr>
+                <tr>
+                    <td><strong>RG</strong></td>
+                    <td>Robert Hunt</td>
+                    <td>Jarrett Kingston</td>
+                <tr>
+                <tr>
+                    <td><strong>RT</strong></td>
+                    <td>Taylor Moton</td>
+                    <td>Yosh Nijman</td>
+                <tr>
+            </table>
+            <hr>
+            <h2>Defensive Starters</h2>
+            <div class="container">
+                <div class="defPlayers"><img src="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_6_desktop/f_auto/panthers/kzlydzbjdydbtnfwzg0y.jpg" alt="Jordan Fuller" width="100%" height="100%"></div>
+                <div class="defPlayers"><img src="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_6_desktop/f_auto/panthers/gwlhbxua2hguvbnilih7.jpg" alt="Jadeveon Clowney" width="100%" height="100%"></div>
+                <div class="defPlayers"><img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_6_desktop/f_auto/panthers/qx1qwnjswws43onmsqa9.jpg" alt="Derrick Brown" width="100%" height="100%"></div>
+                <div class="defPlayers"><img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_6_desktop/f_auto/panthers/uymnwvgq9obkxkt9pe8t.jpg" alt="Jaycee Horn" width="100%" height="100%"></div>
+                <div class="defPlayers"><img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_6_desktop/f_auto/panthers/ghq61lrpd7glllzubg9x.jpg" alt="Shaq Thompson" width="100%" height="100%"></div>
             </div>
             <table>
                 <tr>
-                    <th>Offensive Players</th>
+                    <td><strong>DE</strong></td>
+                    <td>A'Shawn Robinson</td>
+                    <td>Derrick Brown</td>
                 </tr>
                 <tr>
-                    <td>QB</td>
-                    <td>Bryce Young</td>
+                    <td><strong>DT</strong></td>
+                    <td>Shy Tuttle</td>
+                    <td>Nick Thurman<td>
                 </tr>
-                    <td>Bryce Young</td>
+                <tr>
+                    <td><strong>LB</strong></td>
+                    <td>Shaq Thompson</td>
+                    <td>Josey Jewell</td>
+                    <td>DJ Johnson</td>
+                    <td>Jadevon Clowney</td>
+                </tr>
+                <tr>
+                    <td><strong>CB</strong></td>
+                    <td>Michael Jackson</td>
+                    <td>Jaycee Horn</td>
+                    <td>Troy Hill</td>
+                </tr>
+                <tr>
+                    <td><strong>S</strong></td>
+                    <td>Jordan Fuller</td>
+                    <td>Xavier Woods</td>
+                </tr>
             </table>
+            <hr> 
         </section>
-    </body>
 </body>
 </html>
