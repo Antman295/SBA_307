@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <style>
+        .navBar {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class = "navBar">
+            <a href="home.html">Home</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+        <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Feedback</h1>
+    </header>
+    <section>
+        <p>Please provide feedback by answering the questions below. It's not required but it will greatly help me know where I can improve</p>
+        <fieldset>
+            Did you enjoy using this website?<br>
+            <label for="radio">Yes
+                <input type="radio" name="radio" id="radio1" />
+            </label>
+            <label for="radio">No
+                <input type="radio" name="radio" id="radio1" />
+            </label>
+        </fieldset>
+        <fieldset>
+            What page did enjoy the most?<br>
+            <label for="checkbox">The Home Page</label>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+            </label>
+            <label for="checkbox">The Main Page</label>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+            </label>
+            <label for="checkbox">The Feedback Page</label>
+                <input type="checkbox" name="checkbox" id="checkbox1">
+            </label>
+        </fieldset>
+        <fieldset>
+            Please provide any additional comments <br>
+            <label for="comments">Enter here:</label>
+                <input type="text" id="comments" name="comments"><br>
+            </label>
+            <!-- https://www.w3schools.com/html/html_forms.asp -->
+        </fieldset>
+    </section>
+</body>
+</html>
