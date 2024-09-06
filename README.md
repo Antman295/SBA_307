@@ -1,4 +1,4 @@
-# Prjoct Name
+# Project Name
 ## Project Description
 ## Technolgoies Used
 ## How to get started
