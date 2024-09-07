@@ -6,6 +6,15 @@
     <title>Home</title>
     <link rel="stylesheet" href="styles\style.css">
     <style>
+        .main {
+            display: flex;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .title {
             display: block;
             margin: auto;
@@ -16,6 +25,14 @@
             margin: auto;
             margin-top: 50px;
         }
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        figcaption {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: large;
+        }
     </style>
 </head>
 <body style= "background-color: silver;">
@@ -23,19 +40,29 @@
         <nav>
             <ul>
                 <li><a class="active" href="home.html">Home</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="pages\team.html">Team</a></li>
+                <li><a href="pages\feedback.html">Feedback</a></li>
             </ul>
             <img class = "title" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7vXs5kBz8nUF-pMJdxolLOAgI0DIPLjlmYQ&s" alt="Carolina Panthers Wordmark"
             width="450px">
         </nav>
     </header>
     <section>
-        <img class = "logo" src="https://logos-world.net/wp-content/uploads/2020/05/Carolina-Panthers-logo.png" width = 500px>
+        <img class = "logo" src="https://i.pinimg.com/originals/a6/7a/43/a67a430308f01906d8e2696fa55f214b.gif" width = 400px>
 
-        <h1>Home Stadium</h1>
-    </section>
+        <h1>LOGO HISTORY</h1>
 
-    <img src="https://media2.giphy.com/media/BjOQOpNyoNQTaNjueo/200w.gif?cid=6c09b952d1szuvfdidwnm1y95hr93pfc3h51juru9ycwoers&ep=v1_gifs_search&rid=200w.gif&ct=g">
+        
+        <div class="main">
+        <div class="container">
+            <h2>1995-2012</h2>
+            <div class="twoLogos"><img src="https://logos-world.net/wp-content/uploads/2020/05/Carolina-Panthers-logo.png" alt="Panthers New Logo" width="100%" height="100%"></div>
+        </div>
+        <div class="container">
+            <h2>2012-Now</h2>
+            <div class="twoLogos"><img src="https://logos-world.net/wp-content/uploads/2020/05/Carolina-Panthers-Logo-1995-2011.png" alt="Panthers Old Logo" width="100%" height="100%"></fig></div>
+        </div>
+        </div>
+</section>
 </body>
 </html>

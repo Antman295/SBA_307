@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
-    <link rel="stylesheet" href="styles\style.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <style>
         fieldset {
             border: 5px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            margin: 30px;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
     </style>
 </head>
-<body>
+<body style="background-color: silver;">
     <header>
         <nav>
             <ul>
@@ -22,7 +37,7 @@
         </nav>
         <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Feedback</h1>
     </header>
-    <section style = "text-align: center;">
+    <section>
         <p>Please provide feedback by answering the questions below. It's not required but it will greatly help me know where I can improve</p>
         <fieldset>
             Did you enjoy using this website?<br>
@@ -52,7 +67,7 @@
             </label>
             <!-- https://www.w3schools.com/html/html_forms.asp -->
         </fieldset>
-        <input type="submit"> This does not work BTW
+        <input type="submit">
     </section>
 </body>
 </html>
