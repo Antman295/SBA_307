@@ -29,16 +29,37 @@
         h2 {
             font-family: Arial, Helvetica, sans-serif;
         }
-        figcaption {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            font-size: large;
-        }
         #newLogo {
             width: 400px;
         }
         #oldLogo {
             width: 400px;
+        }
+        .stadiumContainer {
+            display: flex;
+            object-fit: fit;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        p {
+            text-align: center; 
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #stadium {
+            width: 400px;
+            margin-bottom: 50px;
+        }
+
+        #mascot {
+            width: 500px;
+        }
+
+        .mascotContainer {
+            display: flex;
+            justify-content: space-evenly;
+            object-fit: fit;
         }
     </style>
 </head>
@@ -55,11 +76,9 @@
         </nav>
     </header>
     <section>
-        <img class = "logo" src="https://i.pinimg.com/originals/a6/7a/43/a67a430308f01906d8e2696fa55f214b.gif" width = 400px>
+        <img class = "logo" src="https://i.pinimg.com/originals/a6/7a/43/a67a430308f01906d8e2696fa55f214b.gif" width = 500px>
 
         <h1>LOGO HISTORY</h1>
-
-        
         <div class="main">
         <div class="container">
             <h2>1995-2012</h2>
@@ -70,6 +89,21 @@
             <div id="newLogo"><img src="https://logos-world.net/wp-content/uploads/2020/05/Carolina-Panthers-logo.png" alt="Panthers Old Logo" width="100%" height="100%"></fig></div>
         </div>
         </div>
+
+        <h1>PANTHER'S STADIUM</h1>
+        <h2 style="text-align: center;">Bank Of America Stadium</h2>
+        <p>Located in Charlotte, NC </p>
+        <div class="stadiumContainer">
+                <div id="stadium"><img src="https://www.momspumphere.com/components/com_jplaces/files/images/407531632bank-of-america-stadium_charlotte-north-carolina_breastfeeding-nursing-mothers-lactation-room_outdoor-view.jpg" alt="Front of Stadium" width="100%" height="100%"></div>
+                <div id="stadium"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/BofAStadium2015.JPG" alt="Inside of Stadium" width="100%" height="100%"></div>
+                <div id="stadium"><img src="https://tile.loc.gov/image-services/iiif/service:pnp:highsm:43300:43320/full/pct:25/0/default.jpg" width="100%" height="100%"></div>
+            </div>
 </section>
 </body>
+<footer>
+    <div class= "mascotContainer">
+        <h3 style = "font-family: Arial, Helvetica, sans-serif;">Click on Sir Purr to get taken back to the top</h3>
+        <a href="home.html"><img id = "mascot" src = "https://static.clubs.nfl.com/image/upload/f_auto/panthers/eckibiti7x1qhcxrshfx" alt = "Sir Purr pointing up"></a>
+    </div>
+</footer>
 </html>
