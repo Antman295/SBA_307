@@ -23,7 +23,9 @@ This is a basic HTML website with the following technical requirements:
 
 ## Technologies Used
 
-This website made use of HTML for the layout and CSS for the styling. All the code was done in Microsoft Visual Studio Code.
+This website made use of HTML for the layout and CSS for the styling. All the code was done in Microsoft Visual Studio Code and committed to a GitHub Repository: 
+
+[Link to Github Repository] https://github.com/Antman295/SBA_307
 
 ## Awknowledgements
 [Panthers Roster] https://www.espn.com/nfl/team/depth/_/name/car
